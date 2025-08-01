@@ -48,8 +48,6 @@ EEG signals were preprocessed through a custom pipeline involving:
   - Savitzky-Golay smoothing  
   - Wavelet thresholding  
 
-This ensured clean, noise-reduced inputs for effective learning.
-
 ---
 
 ## 🧠 Model Development
@@ -57,8 +55,6 @@ This ensured clean, noise-reduced inputs for effective learning.
 The model architecture is based on a **Long Short-Term Memory (LSTM)** neural network, ideal for sequential EEG data.  
 
 ✅ **Model Accuracy:** Achieved **96%** classification accuracy between calm and stress states.
-
-This demonstrates the feasibility of EEG-based automatic stress prediction for real-world applications.
 
 ---
 
